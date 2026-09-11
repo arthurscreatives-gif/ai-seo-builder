@@ -1,0 +1,26 @@
+@import "tailwindcss";
+
+@theme {
+  --color-navy: #111738;
+  --color-navy-dark: #0b0f24;
+  --color-navy-light: #1a2250;
+  --color-gold: #D4AF37;
+  --color-gold-hover: #c49f2b;
+  --color-gold-light: #FAF5E6;
+  --color-electric: #4DA3FF;
+  --color-electric-dark: #2a8bf7;
+  --color-electric-light: #EFF6FF;
+}
+
+@media print {
+  .no-print {
+    display: none !important;
+  }
+  .print-only {
+    display: block !important;
+  }
+  body {
+    background: #ffffff !important;
+    color: #000000 !important;
+  }
+}
